@@ -54,6 +54,9 @@ class gameChooser:
             elif self.currentGame == 4:
                 os.chdir('./' + self.gamePathes[4])
             os.system('python3 main.py')
+            self.check = 0
+            os.chdir('..')
+            os.chdir('..')
 
 
 
