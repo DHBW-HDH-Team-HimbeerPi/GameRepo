@@ -56,7 +56,6 @@ class gameChooser:
             os.system('python3 main.py')
             self.check = 0
             os.chdir('..')
-            os.chdir('..')
 
 
 
