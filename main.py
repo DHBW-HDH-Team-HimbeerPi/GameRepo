@@ -4,10 +4,6 @@ from input_framework.interface import ThresholdType, TriggerMode
 import os
 import time
 
-os.chdir('..')
-os.chdir('./raspberry-cementary/Pong')
-os.system('python3 main.py')
-
 class gameChooser:
 
     def __init__(self):
