@@ -67,9 +67,13 @@ class gameChooser:
         elif direction == 3:
             if self.currentGame < 4:
                 self.currentGame = self.currentGame + 1
+            else:
+                self.currentGame = 0
         elif direction == 4:
             if self.currentGame > 0:
                 self.currentGame = self.currentGame - 1
+            else:
+                self.currentGame = 4
         print(direction)
         direction = 0
 
